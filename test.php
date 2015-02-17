@@ -164,7 +164,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 </head>
 <body onLoad="rr();" id="bodd">
 <div id="apDiv1"></div>
-<!--<div id="draggable20" class="ui-widget-content" >test 2</div>doPlayers();-->
+<div id="draggable20" class="ui-widget-content" >test 2</div>doPlayers();
 <!--<div id="draggable" class="ui-widget-content" >test</div>-->
 <!--<div id="draggable40" class="ui-widget-content" >test 3</div>-->
 
