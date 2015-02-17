@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Draggable - Default functionality</title>
+	<link rel="stylesheet" href="jq/development-bundle/themes/base/jquery.ui.all.css">
+	<script src="jq/js/jquery-1.9.1.js"></script>
+	<script src="jq/development-bundle/ui/jquery.ui.core.js"></script>
+	<script src="jq/development-bundle/ui/jquery.ui.widget.js"></script>
+	<script src="jq/development-bundle/ui/jquery.ui.mouse.js"></script>
+	<script src="jq/development-bundle/ui/jquery.ui.draggable.js"></script>
+	<link rel="stylesheet" href="../demos.css">
+	<style>
+	#draggable { width: 50px; height: 50px; padding: 0.5em; }
+	#apDiv1 {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 800px;
+	background:url(images/pitch.png);
+	height: 500px;
+	z-index: -1;
+}
+    </style>
+	<script>
+	$(function() {
+		$( "#draggable" ).draggable();
+	});
+	</script>
+</head>
+<body>
+<div id="apDiv1"></div>
+
+<div id="draggable" class="ui-widget-content" >
+<p>Player</p>
+</div>
+
+
+
+
+</body>
+</html>
